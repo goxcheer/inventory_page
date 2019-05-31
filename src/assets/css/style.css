@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+body{font:14px/1.5 '微软雅黑','\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',sans-serif;}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+a,input,textarea,select{outline: none;}
+*:focus {outline: none;}
+input,textarea,select{*font-size:100%;}
+input[type="button"],button{border:none;}
+input[type="button"],input[type="text"],input[type="submit"],textarea{-webkit-appearance: none;}
+em,b{font-style:normal}
+a{text-decoration:none}
+.l{ float: left;}
+.r{ float: right;}
+.hide{ display: none;}
+.show{ display: block;}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+html,body{
+  background: #ededed;
+  color: #000000;
+  min-width: 1000px;
+}
+@media screen and (max-width: 1000px){
+  html,body{
+    min-width: auto;
+  }
+}
+#app{margin: 0  auto !important;}
+/*三角箭头 start*/
+.arrow_ico{
+  position: relative;
+  display: inline-block;
+  transform:rotate(-180deg);
+}
+.arrow_ico:after, .arrow_ico:before {
+  border: 8px solid transparent;
+  border-left: 8px solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -2px;
+  right: -20px;
+  content: ' '
+}
+.arrow_ico:before {
+  border-left-color: #939393;
+  right: -22px;
+}
+/*三角箭头 end*/
+
+/*暂无数据 start*/
+.no_data{
+  padding: 20px 0;
+  color: #c3cbd6;
+  text-align: center;
+}
+.no_data .tip{
+  padding: 20px 0;
+}
+/*暂无数据 end*/
+
+.no_uUid{
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 0;
+  color: rgb(255, 187, 14);
+}
+.vertical-center-modal{
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.vertical-center-modal .ivu-modal{
+  top: 0;
+}
+.no_uUid{
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 0;
+  color: #999;
+}
+.no_uUid .body{
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.cell_td_level_class{
+  font-weight: bold;
+  font-size: 16px;
+}
+.color_2dc7c9{
+  color:#2dc7c9 ;
+}
+.color_b6a2df{
+  color:#b6a2df ;
+}
+.color_59b1f0{
+  color:#59b1f0 ;
+}
+.color_ffb880{
+  color:#ffb880;
+}
